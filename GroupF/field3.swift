@@ -1,5 +1,5 @@
 //
-//  ViewController4.swift
+//  ViewController3.swift
 //  GroupF
 //
 //  Created by 津覇　翔也 on 2019/12/05.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController4: UIViewController {
+class field3: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

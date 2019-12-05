@@ -1,5 +1,5 @@
 //
-//  ViewController2.swift
+//  ViewController4.swift
 //  GroupF
 //
 //  Created by 津覇　翔也 on 2019/12/05.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController2: UIViewController {
+class field4: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +18,7 @@ class ViewController2: UIViewController {
     }
     
     private func initImageView(){
-        let image1:UIImage = UIImage(named:"鉄板")!
+        let image1:UIImage = UIImage(named:"草")!
         
         // UIImageView 初期化
         let imageView = UIImageView(image:image1)
