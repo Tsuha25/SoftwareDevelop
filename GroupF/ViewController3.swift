@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController3.swift
 //  GroupF
 //
 //  Created by 津覇　翔也 on 2019/12/05.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController3: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,5 +51,15 @@ class ViewController: UIViewController {
     }
     
     
+    
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
-
