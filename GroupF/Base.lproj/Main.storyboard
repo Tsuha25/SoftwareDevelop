@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller2-->
+        <!--Field2-->
         <scene sceneID="y6x-rg-o0q">
             <objects>
-                <viewController id="hVZ-wN-12L" customClass="ViewController2" customModule="GroupF" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hVZ-wN-12L" customClass="field2" customModule="GroupF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MF6-w3-Fii">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,10 +32,10 @@
             </objects>
             <point key="canvasLocation" x="88" y="-831"/>
         </scene>
-        <!--View Controller3-->
+        <!--Field3-->
         <scene sceneID="sN4-y0-gNX">
             <objects>
-                <viewController id="vvW-4h-YEV" customClass="ViewController3" customModule="GroupF" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vvW-4h-YEV" customClass="field3" customModule="GroupF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kps-nF-rfI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -293,6 +293,11 @@
         <image name="矢印4" width="48" height="48"/>
     </resources>
     <inferredMetricsTieBreakers>
+<<<<<<< HEAD
         <segue reference="0nQ-tf-Nwp"/>
+=======
+        <segue reference="Hld-fa-szJ"/>
+        <segue reference="66s-HO-eoY"/>
+>>>>>>> origin/master
     </inferredMetricsTieBreakers>
 </document>
