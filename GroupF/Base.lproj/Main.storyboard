@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller2-->
+        <!--Field2-->
         <scene sceneID="y6x-rg-o0q">
             <objects>
-                <viewController id="hVZ-wN-12L" customClass="ViewController2" customModule="GroupF" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hVZ-wN-12L" customClass="field2" customModule="GroupF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MF6-w3-Fii">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,12 +30,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UJj-MO-g6s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="-623.4375"/>
+            <point key="canvasLocation" x="88" y="-831"/>
         </scene>
-        <!--View Controller3-->
+        <!--Field3-->
         <scene sceneID="sN4-y0-gNX">
             <objects>
-                <viewController id="vvW-4h-YEV" customClass="ViewController3" customModule="GroupF" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vvW-4h-YEV" customClass="field3" customModule="GroupF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kps-nF-rfI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFS-iv-drf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-965.21739130434787" y="116.51785714285714"/>
+            <point key="canvasLocation" x="-1220" y="117"/>
         </scene>
         <!--View Controller Start-->
         <scene sceneID="nWJ-og-BeV">
@@ -132,7 +132,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GroupF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C6e-Sk-3dd">
@@ -167,37 +167,125 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+            <point key="canvasLocation" x="138" y="117"/>
         </scene>
-        <!--View Controller4-->
+        <!--Field4-->
         <scene sceneID="vVR-Ih-jH2">
             <objects>
-                <viewController id="WE9-fu-zaK" customClass="ViewController4" customModule="GroupF" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="WE9-fu-zaK" customClass="field4" customModule="GroupF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e8L-CO-zfh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="talk.png" translatesAutoresizingMaskIntoConstraints="NO" id="EQT-81-Qhr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjW-WT-GlT">
-                                <rect key="frame" x="20" y="424" width="57" height="48"/>
+                                <rect key="frame" x="20" y="511" width="57" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="矢印2"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="ozG-Em-W67"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eSZ-0a-4H6" customClass="FLAnimatedImageView">
+                                <rect key="frame" x="20" y="545" width="374" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tiI-27-5kx">
+                                <rect key="frame" x="36" y="103" width="342" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcR-tn-GUg">
+                                <rect key="frame" x="36" y="245" width="342" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="選択肢1" image="play" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Q4C-tp-tQp" kind="presentation" id="NM9-Pj-P7U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fu0-mU-5Fi">
+                                <rect key="frame" x="130" y="545" width="153" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Talk_Start:" destination="WE9-fu-zaK" eventType="touchDown" id="wj1-bH-2LY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbA-5w-zuj">
+                                <rect key="frame" x="130" y="545" width="153" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Talk_finish:" destination="WE9-fu-zaK" eventType="touchUpInside" id="hBB-CV-KTq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="qpn-8z-lSc"/>
                     </view>
+                    <connections>
+                        <outlet property="label_1" destination="tiI-27-5kx" id="J06-B6-ofg"/>
+                        <outlet property="sakuramochi" destination="eSZ-0a-4H6" id="LrN-Lk-7Py"/>
+                        <outlet property="select_1" destination="mcR-tn-GUg" id="NZb-Pw-zQQ"/>
+                        <outlet property="talk" destination="EQT-81-Qhr" id="esZ-ZV-zOr"/>
+                        <outlet property="talk_finish" destination="MbA-5w-zuj" id="Fpt-ru-h43"/>
+                        <outlet property="talk_start" destination="fu0-mU-5Fi" id="yrX-eb-7gK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="76c-h7-h2Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1237.68115942029" y="116.51785714285714"/>
+            <point key="canvasLocation" x="1456.521739130435" y="116.51785714285714"/>
+        </scene>
+        <!--ヒントだよ-->
+        <scene sceneID="QGh-Va-FG8">
+            <objects>
+                <viewController id="7PA-I2-NRk" customClass="HintViewController" customModule="GroupF" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o2e-ph-7gg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Xhg-DP-kNc"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ヒントだよ" id="2zb-0v-DM3"/>
+                    <splitViewDetailSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="hint" destination="2zb-0v-DM3" id="vTe-bS-vVW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sgU-Gy-TcI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3821.739130434783" y="116.51785714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="AJ4-Bq-AjN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Q4C-tp-tQp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="qKP-9Q-6dx"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RsT-rD-IM2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7PA-I2-NRk" kind="relationship" relationship="rootViewController" id="c9n-D3-qyO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cFj-cY-bsR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2578" y="117"/>
         </scene>
     </scenes>
     <resources>
         <image name="back_3.png" width="828" height="1792"/>
         <image name="play" catalog="system" width="60" height="64"/>
+        <image name="talk.png" width="828" height="1792"/>
         <image name="top_dot_back.png" width="504" height="1024"/>
         <image name="矢印" width="48" height="48"/>
         <image name="矢印2" width="48" height="48"/>
@@ -205,6 +293,7 @@
         <image name="矢印4" width="48" height="48"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fTs-dS-jXy"/>
+        <segue reference="Hld-fa-szJ"/>
+        <segue reference="66s-HO-eoY"/>
     </inferredMetricsTieBreakers>
 </document>
