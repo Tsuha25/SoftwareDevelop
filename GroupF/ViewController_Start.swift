@@ -11,16 +11,27 @@ import FLAnimatedImage
 
 class ViewController_Start: UIViewController {
     
+    //背景gif
     @IBOutlet weak var top_gif: FLAnimatedImageView!
+    //始める背景付きボタン
     @IBOutlet weak var start: UIButton!
+    //初手tapでstartボタン
     @IBOutlet weak var tap_start: UIButton!
+    //始めるボタン背景
     @IBOutlet weak var img_start: UIImageView!
-
+    
+    /*
+     最初のtapボタンが押された時の処理
+     */
     @IBAction func Tap_Start(_ sender: Any) {
         Start_On_Off(index: true)
     }
+
     
-    //trueでTapOff
+    /*
+     tapボタンと始めるボタン、始めるボタン背景を切り替える
+     trueでTapOff
+     */
     func Start_On_Off(index:Bool){
         if(index == true){
             start.isHidden = false
@@ -36,8 +47,10 @@ class ViewController_Start: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //初手始める画面非表示
         Start_On_Off(index: false)
-        //gif
+        
+        //gif関連
         let path1 : String = Bundle.main.path(forResource: "top", ofType: "gif")!
         let url = URL(fileURLWithPath: path1)
         let gifData = try? Data(contentsOf: url)
