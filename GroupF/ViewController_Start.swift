@@ -51,7 +51,7 @@ class ViewController_Start: UIViewController {
         Start_On_Off(index: false)
         
         //gif関連
-        let path1 : String = Bundle.main.path(forResource: "top", ofType: "gif")!
+        let path1 : String = Bundle.main.path(forResource: "only_main", ofType: "gif")!
         let url = URL(fileURLWithPath: path1)
         let gifData = try? Data(contentsOf: url)
         let imageData1 = try? FLAnimatedImage(animatedGIFData: gifData)
