@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A11DB70239DC531001F4846 /* BattleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A11DB6F239DC531001F4846 /* BattleScene.swift */; };
 		4A23E16F2399D15200D5C7E8 /* ViewController_Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A23E16E2399D15200D5C7E8 /* ViewController_Start.swift */; };
 		4A23E1722399D70E00D5C7E8 /* top.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4A23E1712399D70E00D5C7E8 /* top.gif */; };
 		4A23E1762399D88B00D5C7E8 /* back_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A23E1742399D88B00D5C7E8 /* back_3.png */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A11DB6F239DC531001F4846 /* BattleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleScene.swift; sourceTree = "<group>"; };
 		4A23E16E2399D15200D5C7E8 /* ViewController_Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Start.swift; sourceTree = "<group>"; };
 		4A23E1712399D70E00D5C7E8 /* top.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = top.gif; sourceTree = "<group>"; };
 		4A23E1742399D88B00D5C7E8 /* back_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_3.png; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				63563E902398FCE700315722 /* Assets.xcassets */,
 				63563E922398FCE700315722 /* LaunchScreen.storyboard */,
 				63563E952398FCE700315722 /* Info.plist */,
+				4A11DB6F239DC531001F4846 /* BattleScene.swift */,
 				63563E9B2398FE0800315722 /* field2.swift */,
 				63563E9D2398FE5200315722 /* field3.swift */,
 				63563E9F2398FE5D00315722 /* field4.swift */,
@@ -266,6 +269,7 @@
 			files = (
 				63563E9E2398FE5200315722 /* field3.swift in Sources */,
 				63563EA02398FE5D00315722 /* field4.swift in Sources */,
+				4A11DB70239DC531001F4846 /* BattleScene.swift in Sources */,
 				4A23E16F2399D15200D5C7E8 /* ViewController_Start.swift in Sources */,
 				4A23E17A2399ED1200D5C7E8 /* RoundedButton.swift in Sources */,
 				4A23E182239A1F3C00D5C7E8 /* HintViewController.swift in Sources */,

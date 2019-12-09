@@ -5,7 +5,6 @@
 //  Created by 津覇　翔也 on 2019/12/05.
 //  Copyright © 2019 津覇　翔也. All rights reserved.
 //
-
 import UIKit
 import FLAnimatedImage
 
