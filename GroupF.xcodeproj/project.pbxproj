@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A11DB70239DC531001F4846 /* BattleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A11DB6F239DC531001F4846 /* BattleScene.swift */; };
+		4A11DB70239DC531001F4846 /* Quiz-Buzzer01-1.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 4A11DB6F239DC531001F4846 /* Quiz-Buzzer01-1.mp3 */; };
+		4A11DB76239DF21C001F4846 /* Quiz-Wrong_Buzzer02-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A11DB74239DF21C001F4846 /* Quiz-Wrong_Buzzer02-2.mp3 */; };
+		4A11DB78239DF3CF001F4846 /* BattleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A11DB77239DF3CF001F4846 /* BattleScene.swift */; };
+		4A11DB7A239DF483001F4846 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A11DB79239DF483001F4846 /* AVFoundation.framework */; };
 		4A23E16F2399D15200D5C7E8 /* ViewController_Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A23E16E2399D15200D5C7E8 /* ViewController_Start.swift */; };
 		4A23E1722399D70E00D5C7E8 /* top.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4A23E1712399D70E00D5C7E8 /* top.gif */; };
 		4A23E1762399D88B00D5C7E8 /* back_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A23E1742399D88B00D5C7E8 /* back_3.png */; };
@@ -32,29 +35,32 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A11DB6F239DC531001F4846 /* BattleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleScene.swift; sourceTree = "<group>"; };
-		4A23E16E2399D15200D5C7E8 /* ViewController_Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Start.swift; sourceTree = "<group>"; };
+		4A11DB6F239DC531001F4846 /* Quiz-Buzzer01-1.mp3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = audio.mp3; path = "Quiz-Buzzer01-1.mp3"; sourceTree = "<group>"; };
+		4A11DB74239DF21C001F4846 /* Quiz-Wrong_Buzzer02-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quiz-Wrong_Buzzer02-2.mp3"; sourceTree = "<group>"; };
+		4A11DB77239DF3CF001F4846 /* BattleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BattleScene.swift; path = Controller/BattleScene.swift; sourceTree = "<group>"; };
+		4A11DB79239DF483001F4846 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4A23E16E2399D15200D5C7E8 /* ViewController_Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController_Start.swift; path = Controller/ViewController_Start.swift; sourceTree = "<group>"; };
 		4A23E1712399D70E00D5C7E8 /* top.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = top.gif; sourceTree = "<group>"; };
 		4A23E1742399D88B00D5C7E8 /* back_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_3.png; sourceTree = "<group>"; };
-		4A23E1792399ED1200D5C7E8 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		4A23E1792399ED1200D5C7E8 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundedButton.swift; path = Controller/RoundedButton.swift; sourceTree = "<group>"; };
 		4A23E17D239A13E800D5C7E8 /* talk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = talk.png; sourceTree = "<group>"; };
 		4A23E17F239A13F600D5C7E8 /* sakuramochi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sakuramochi.gif; sourceTree = "<group>"; };
-		4A23E181239A1F3C00D5C7E8 /* HintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintViewController.swift; sourceTree = "<group>"; };
+		4A23E181239A1F3C00D5C7E8 /* HintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HintViewController.swift; path = Controller/HintViewController.swift; sourceTree = "<group>"; };
 		4AD1737C239B885A00A5A4A9 /* only_main.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = only_main.gif; path = ../../picture/only_main.gif; sourceTree = "<group>"; };
 		4AD1737E239B88D200A5A4A9 /* top_dot_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top_dot_back.png; path = ../../picture/top_dot/top_dot_back.png; sourceTree = "<group>"; };
 		4AD17380239B891700A5A4A9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../picture/main_cha_dot/logo.png; sourceTree = "<group>"; };
 		4AD17382239B8AE900A5A4A9 /* tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tap.png; path = ../../picture/main_cha_dot/tap.png; sourceTree = "<group>"; };
 		63563E842398FCE600315722 /* GroupF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63563E872398FCE600315722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63563E892398FCE600315722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63563E8B2398FCE600315722 /* field1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = field1.swift; sourceTree = "<group>"; };
+		63563E892398FCE600315722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = Controller/SceneDelegate.swift; sourceTree = "<group>"; };
+		63563E8B2398FCE600315722 /* field1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = field1.swift; path = Controller/field1.swift; sourceTree = "<group>"; };
 		63563E8E2398FCE600315722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63563E902398FCE700315722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63563E932398FCE700315722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63563E952398FCE700315722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63563E9B2398FE0800315722 /* field2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = field2.swift; sourceTree = "<group>"; };
-		63563E9D2398FE5200315722 /* field3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = field3.swift; sourceTree = "<group>"; };
-		63563E9F2398FE5D00315722 /* field4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = field4.swift; sourceTree = "<group>"; };
+		63563E9B2398FE0800315722 /* field2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = field2.swift; path = Controller/field2.swift; sourceTree = "<group>"; };
+		63563E9D2398FE5200315722 /* field3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = field3.swift; path = Controller/field3.swift; sourceTree = "<group>"; };
+		63563E9F2398FE5D00315722 /* field4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = field4.swift; path = Controller/field4.swift; sourceTree = "<group>"; };
 		A1FD5693D70961CE36DFA225 /* Pods_GroupF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD60058DAB2270A8AF048089 /* Pods-GroupF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupF.debug.xcconfig"; path = "Target Support Files/Pods-GroupF/Pods-GroupF.debug.xcconfig"; sourceTree = "<group>"; };
 		C2DA9094746E86015F9F67E9 /* Pods-GroupF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupF.release.xcconfig"; path = "Target Support Files/Pods-GroupF/Pods-GroupF.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A11DB7A239DF483001F4846 /* AVFoundation.framework in Frameworks */,
 				EA92C68CCB1408C79F1273CE /* Pods_GroupF.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,10 +125,12 @@
 				63563E902398FCE700315722 /* Assets.xcassets */,
 				63563E922398FCE700315722 /* LaunchScreen.storyboard */,
 				63563E952398FCE700315722 /* Info.plist */,
-				4A11DB6F239DC531001F4846 /* BattleScene.swift */,
+				4A11DB6F239DC531001F4846 /* Quiz-Buzzer01-1.mp3 */,
 				63563E9B2398FE0800315722 /* field2.swift */,
 				63563E9D2398FE5200315722 /* field3.swift */,
 				63563E9F2398FE5D00315722 /* field4.swift */,
+				4A11DB74239DF21C001F4846 /* Quiz-Wrong_Buzzer02-2.mp3 */,
+				4A11DB77239DF3CF001F4846 /* BattleScene.swift */,
 				4A23E1702399D70E00D5C7E8 /* Picture */,
 			);
 			path = GroupF;
@@ -130,6 +139,7 @@
 		9F713BE1F8B4C0EBFAC3D599 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A11DB79239DF483001F4846 /* AVFoundation.framework */,
 				A1FD5693D70961CE36DFA225 /* Pods_GroupF.framework */,
 			);
 			name = Frameworks;
@@ -210,6 +220,7 @@
 				4A23E1762399D88B00D5C7E8 /* back_3.png in Resources */,
 				4A23E180239A13F600D5C7E8 /* sakuramochi.gif in Resources */,
 				63563E942398FCE700315722 /* LaunchScreen.storyboard in Resources */,
+				4A11DB76239DF21C001F4846 /* Quiz-Wrong_Buzzer02-2.mp3 in Resources */,
 				4AD17381239B891700A5A4A9 /* logo.png in Resources */,
 				63563E912398FCE700315722 /* Assets.xcassets in Resources */,
 				4A23E1722399D70E00D5C7E8 /* top.gif in Resources */,
@@ -269,10 +280,11 @@
 			files = (
 				63563E9E2398FE5200315722 /* field3.swift in Sources */,
 				63563EA02398FE5D00315722 /* field4.swift in Sources */,
-				4A11DB70239DC531001F4846 /* BattleScene.swift in Sources */,
+				4A11DB70239DC531001F4846 /* Quiz-Buzzer01-1.mp3 in Sources */,
 				4A23E16F2399D15200D5C7E8 /* ViewController_Start.swift in Sources */,
 				4A23E17A2399ED1200D5C7E8 /* RoundedButton.swift in Sources */,
 				4A23E182239A1F3C00D5C7E8 /* HintViewController.swift in Sources */,
+				4A11DB78239DF3CF001F4846 /* BattleScene.swift in Sources */,
 				63563E8C2398FCE600315722 /* field1.swift in Sources */,
 				63563E9C2398FE0800315722 /* field2.swift in Sources */,
 				63563E882398FCE600315722 /* AppDelegate.swift in Sources */,
