@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A11DB70239DC531001F4846 /* Quiz-Buzzer01-1.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 4A11DB6F239DC531001F4846 /* Quiz-Buzzer01-1.mp3 */; };
 		4A11DB76239DF21C001F4846 /* Quiz-Wrong_Buzzer02-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A11DB74239DF21C001F4846 /* Quiz-Wrong_Buzzer02-2.mp3 */; };
 		4A11DB78239DF3CF001F4846 /* BattleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A11DB77239DF3CF001F4846 /* BattleScene.swift */; };
 		4A11DB7A239DF483001F4846 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A11DB79239DF483001F4846 /* AVFoundation.framework */; };
+		4A11DB7C239DF76F001F4846 /* Quiz-Buzzer01-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A11DB7B239DF76F001F4846 /* Quiz-Buzzer01-1.mp3 */; };
 		4A23E16F2399D15200D5C7E8 /* ViewController_Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A23E16E2399D15200D5C7E8 /* ViewController_Start.swift */; };
 		4A23E1722399D70E00D5C7E8 /* top.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4A23E1712399D70E00D5C7E8 /* top.gif */; };
 		4A23E1762399D88B00D5C7E8 /* back_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A23E1742399D88B00D5C7E8 /* back_3.png */; };
@@ -35,10 +35,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A11DB6F239DC531001F4846 /* Quiz-Buzzer01-1.mp3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = audio.mp3; path = "Quiz-Buzzer01-1.mp3"; sourceTree = "<group>"; };
 		4A11DB74239DF21C001F4846 /* Quiz-Wrong_Buzzer02-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quiz-Wrong_Buzzer02-2.mp3"; sourceTree = "<group>"; };
 		4A11DB77239DF3CF001F4846 /* BattleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BattleScene.swift; path = Controller/BattleScene.swift; sourceTree = "<group>"; };
 		4A11DB79239DF483001F4846 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4A11DB7B239DF76F001F4846 /* Quiz-Buzzer01-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quiz-Buzzer01-1.mp3"; sourceTree = "<group>"; };
 		4A23E16E2399D15200D5C7E8 /* ViewController_Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController_Start.swift; path = Controller/ViewController_Start.swift; sourceTree = "<group>"; };
 		4A23E1712399D70E00D5C7E8 /* top.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = top.gif; sourceTree = "<group>"; };
 		4A23E1742399D88B00D5C7E8 /* back_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_3.png; sourceTree = "<group>"; };
@@ -125,10 +125,10 @@
 				63563E902398FCE700315722 /* Assets.xcassets */,
 				63563E922398FCE700315722 /* LaunchScreen.storyboard */,
 				63563E952398FCE700315722 /* Info.plist */,
-				4A11DB6F239DC531001F4846 /* Quiz-Buzzer01-1.mp3 */,
 				63563E9B2398FE0800315722 /* field2.swift */,
 				63563E9D2398FE5200315722 /* field3.swift */,
 				63563E9F2398FE5D00315722 /* field4.swift */,
+				4A11DB7B239DF76F001F4846 /* Quiz-Buzzer01-1.mp3 */,
 				4A11DB74239DF21C001F4846 /* Quiz-Wrong_Buzzer02-2.mp3 */,
 				4A11DB77239DF3CF001F4846 /* BattleScene.swift */,
 				4A23E1702399D70E00D5C7E8 /* Picture */,
@@ -216,6 +216,7 @@
 			files = (
 				4AD1737D239B885A00A5A4A9 /* only_main.gif in Resources */,
 				4A23E17E239A13E800D5C7E8 /* talk.png in Resources */,
+				4A11DB7C239DF76F001F4846 /* Quiz-Buzzer01-1.mp3 in Resources */,
 				4AD1737F239B88D300A5A4A9 /* top_dot_back.png in Resources */,
 				4A23E1762399D88B00D5C7E8 /* back_3.png in Resources */,
 				4A23E180239A13F600D5C7E8 /* sakuramochi.gif in Resources */,
@@ -280,7 +281,6 @@
 			files = (
 				63563E9E2398FE5200315722 /* field3.swift in Sources */,
 				63563EA02398FE5D00315722 /* field4.swift in Sources */,
-				4A11DB70239DC531001F4846 /* Quiz-Buzzer01-1.mp3 in Sources */,
 				4A23E16F2399D15200D5C7E8 /* ViewController_Start.swift in Sources */,
 				4A23E17A2399ED1200D5C7E8 /* RoundedButton.swift in Sources */,
 				4A23E182239A1F3C00D5C7E8 /* HintViewController.swift in Sources */,

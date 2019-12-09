@@ -81,7 +81,7 @@ class BattleScene: UIViewController,AVAudioPlayerDelegate{
             QuizJudge.image=judgement
             numClear += 1
         } else {
-            audioPlayer.playSound(name:"uiz-Wrong_Buzzer02-2")
+            audioPlayer.playSound(name:"Quiz-Wrong_Buzzer02-2")
             print("Not",String(intValue+1),",correct is", String(correct+1),":",String(choices_sentences[choose_question][0]))
             let judgement = UIImage(named: "Cross")
             QuizJudge.image=judgement
