@@ -108,10 +108,14 @@ class BattleScene: UIViewController,AVAudioPlayerDelegate{
             question_text.text = "正解数 "+String(numClear)
             DispatchQueue.main.asyncAfter(deadline : DispatchTime.now() + 2.0){
                 if (self.numClear >= 3){
-                    self.question_text.text = ("やったね！クリアだ！")
+                    self.question_text.text = ("ノルマクリアだ！")
                     
                 } else {
-                    self.question_text.text = ("こんなこともできないのか！\nお前は...除籍だあああッ！！")
+                    self.question_text.text = ("ノルマクリア失敗")
+                }
+            DispatchQueue.main.asyncAfter(deadline : DispatchTime.now() + 2.0){
+                self.bgm.stopBGM()
+                self.performSegue(withIdentifier:"finish",sender:nil)
                 }
             }
         }
@@ -160,7 +164,7 @@ class BattleScene: UIViewController,AVAudioPlayerDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        bgm.playBGM(name:"battle_bgm")
+        bgm.playBGM(name:"battlesound")
         question_text.isUserInteractionEnabled = false //問題文の編集禁止
         question_text.isEditable = false
         let image = UIImage(named: "Enemy_image") //敵画像の挿入
@@ -202,6 +206,9 @@ class player{
             BGM.play()
         } catch {
         }
+    }
+    func stopBGM(){
+        self.BGM.stop()
     }
 }
 
