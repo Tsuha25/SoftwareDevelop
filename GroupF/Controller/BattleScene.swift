@@ -160,7 +160,7 @@ class BattleScene: UIViewController,AVAudioPlayerDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        bgm.playBGM(name:"background")
+        bgm.playBGM(name:"battle_bgm")
         question_text.isUserInteractionEnabled = false //問題文の編集禁止
         question_text.isEditable = false
         let image = UIImage(named: "Enemy_image") //敵画像の挿入
