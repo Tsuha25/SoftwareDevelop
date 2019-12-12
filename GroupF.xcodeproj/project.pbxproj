@@ -18,6 +18,8 @@
 		4A23E17E239A13E800D5C7E8 /* talk.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A23E17D239A13E800D5C7E8 /* talk.png */; };
 		4A23E180239A13F600D5C7E8 /* sakuramochi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4A23E17F239A13F600D5C7E8 /* sakuramochi.gif */; };
 		4A23E182239A1F3C00D5C7E8 /* HintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A23E181239A1F3C00D5C7E8 /* HintViewController.swift */; };
+		4A55110A23A2144E0079D86B /* ViewController_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A55110923A2144E0079D86B /* ViewController_Menu.swift */; };
+		4A55110C23A21CAB0079D86B /* main_cha.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4A55110B23A21CAB0079D86B /* main_cha.gif */; };
 		4AD1737D239B885A00A5A4A9 /* only_main.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4AD1737C239B885A00A5A4A9 /* only_main.gif */; };
 		4AD1737F239B88D300A5A4A9 /* top_dot_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AD1737E239B88D200A5A4A9 /* top_dot_back.png */; };
 		4AD17381239B891700A5A4A9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AD17380239B891700A5A4A9 /* logo.png */; };
@@ -47,6 +49,8 @@
 		4A23E17D239A13E800D5C7E8 /* talk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = talk.png; sourceTree = "<group>"; };
 		4A23E17F239A13F600D5C7E8 /* sakuramochi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sakuramochi.gif; sourceTree = "<group>"; };
 		4A23E181239A1F3C00D5C7E8 /* HintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HintViewController.swift; path = Controller/HintViewController.swift; sourceTree = "<group>"; };
+		4A55110923A2144E0079D86B /* ViewController_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController_Menu.swift; path = Controller/ViewController_Menu.swift; sourceTree = "<group>"; };
+		4A55110B23A21CAB0079D86B /* main_cha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = main_cha.gif; sourceTree = "<group>"; };
 		4AD1737C239B885A00A5A4A9 /* only_main.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = only_main.gif; sourceTree = "<group>"; };
 		4AD1737E239B88D200A5A4A9 /* top_dot_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_dot_back.png; sourceTree = "<group>"; };
 		4AD17380239B891700A5A4A9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
@@ -62,7 +66,7 @@
 		63563E9B2398FE0800315722 /* field2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = field2.swift; path = Controller/field2.swift; sourceTree = "<group>"; };
 		63563E9D2398FE5200315722 /* field3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = field3.swift; path = Controller/field3.swift; sourceTree = "<group>"; };
 		63563E9F2398FE5D00315722 /* field4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = field4.swift; path = Controller/field4.swift; sourceTree = "<group>"; };
-		63D602FA23A1DA7000C87F99 /* battlesound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = battlesound.mp3; path = ../../Downloads/battlesound.mp3; sourceTree = "<group>"; };
+		63D602FA23A1DA7000C87F99 /* battlesound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = battlesound.mp3; sourceTree = "<group>"; };
 		A1FD5693D70961CE36DFA225 /* Pods_GroupF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD60058DAB2270A8AF048089 /* Pods-GroupF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupF.debug.xcconfig"; path = "Target Support Files/Pods-GroupF/Pods-GroupF.debug.xcconfig"; sourceTree = "<group>"; };
 		C2DA9094746E86015F9F67E9 /* Pods-GroupF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupF.release.xcconfig"; path = "Target Support Files/Pods-GroupF/Pods-GroupF.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 		4A23E1702399D70E00D5C7E8 /* Picture */ = {
 			isa = PBXGroup;
 			children = (
+				4A55110B23A21CAB0079D86B /* main_cha.gif */,
 				4AD17382239B8AE900A5A4A9 /* tap.png */,
 				4AD17380239B891700A5A4A9 /* logo.png */,
 				4A23E17F239A13F600D5C7E8 /* sakuramochi.gif */,
@@ -119,7 +124,6 @@
 			children = (
 				63563E872398FCE600315722 /* AppDelegate.swift */,
 				63563E892398FCE600315722 /* SceneDelegate.swift */,
-				63563E8B2398FCE600315722 /* field1.swift */,
 				63563E8D2398FCE600315722 /* Main.storyboard */,
 				4A23E181239A1F3C00D5C7E8 /* HintViewController.swift */,
 				4A23E16E2399D15200D5C7E8 /* ViewController_Start.swift */,
@@ -127,6 +131,8 @@
 				63563E902398FCE700315722 /* Assets.xcassets */,
 				63563E922398FCE700315722 /* LaunchScreen.storyboard */,
 				63563E952398FCE700315722 /* Info.plist */,
+				4A55110923A2144E0079D86B /* ViewController_Menu.swift */,
+				63563E8B2398FCE600315722 /* field1.swift */,
 				63563E9B2398FE0800315722 /* field2.swift */,
 				63563E9D2398FE5200315722 /* field3.swift */,
 				63563E9F2398FE5D00315722 /* field4.swift */,
@@ -231,6 +237,7 @@
 				4A23E1722399D70E00D5C7E8 /* top.gif in Resources */,
 				4AD17383239B8AE900A5A4A9 /* tap.png in Resources */,
 				63563E8F2398FCE600315722 /* Main.storyboard in Resources */,
+				4A55110C23A21CAB0079D86B /* main_cha.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +298,7 @@
 				4A11DB78239DF3CF001F4846 /* BattleScene.swift in Sources */,
 				63563E8C2398FCE600315722 /* field1.swift in Sources */,
 				63563E9C2398FE0800315722 /* field2.swift in Sources */,
+				4A55110A23A2144E0079D86B /* ViewController_Menu.swift in Sources */,
 				63563E882398FCE600315722 /* AppDelegate.swift in Sources */,
 				63563E8A2398FCE600315722 /* SceneDelegate.swift in Sources */,
 			);
