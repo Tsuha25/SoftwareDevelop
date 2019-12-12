@@ -39,16 +39,19 @@ class field4: UIViewController {
         super.viewDidLoad()
         
         initImageView()
-        
+        Gif_road()
+
+        // Do any additional setup after loading the view.
+    }
+    
+    func Gif_road(){
         //gif表示のための文
         let path1 : String = Bundle.main.path(forResource: "sakuramochi", ofType: "gif")!
         let url = URL(fileURLWithPath: path1)
         let gifData = try? Data(contentsOf: url)
         let imageData1 = try? FLAnimatedImage(animatedGIFData: gifData)
         sakuramochi.animatedImage = imageData1
-        // Do any additional setup after loading the view.
     }
-    
     
     /*
      タップされたら会話を始める
@@ -162,7 +165,6 @@ class field4: UIViewController {
         
         
     }
-    
     
     
     /*
