@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A05245E23A5345000BF4692 /* clk.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4A05245D23A5345000BF4692 /* clk.gif */; };
 		4A11DB76239DF21C001F4846 /* Quiz-Wrong_Buzzer02-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A11DB74239DF21C001F4846 /* Quiz-Wrong_Buzzer02-2.mp3 */; };
 		4A11DB78239DF3CF001F4846 /* BattleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A11DB77239DF3CF001F4846 /* BattleScene.swift */; };
 		4A11DB7A239DF483001F4846 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A11DB79239DF483001F4846 /* AVFoundation.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A05245D23A5345000BF4692 /* clk.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clk.gif; sourceTree = "<group>"; };
 		4A11DB74239DF21C001F4846 /* Quiz-Wrong_Buzzer02-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quiz-Wrong_Buzzer02-2.mp3"; sourceTree = "<group>"; };
 		4A11DB77239DF3CF001F4846 /* BattleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BattleScene.swift; path = Controller/BattleScene.swift; sourceTree = "<group>"; };
 		4A11DB79239DF483001F4846 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +94,7 @@
 				4AD17382239B8AE900A5A4A9 /* tap.png */,
 				4AD17380239B891700A5A4A9 /* logo.png */,
 				4A23E17F239A13F600D5C7E8 /* sakuramochi.gif */,
+				4A05245D23A5345000BF4692 /* clk.gif */,
 				4A23E17D239A13E800D5C7E8 /* talk.png */,
 				4A23E1742399D88B00D5C7E8 /* back_3.png */,
 				4AD1737E239B88D200A5A4A9 /* top_dot_back.png */,
@@ -228,6 +231,7 @@
 				63D602FB23A1DA7000C87F99 /* battlesound.mp3 in Resources */,
 				4A11DB7C239DF76F001F4846 /* Quiz-Buzzer01-1.mp3 in Resources */,
 				4AD1737F239B88D300A5A4A9 /* top_dot_back.png in Resources */,
+				4A05245E23A5345000BF4692 /* clk.gif in Resources */,
 				4A23E1762399D88B00D5C7E8 /* back_3.png in Resources */,
 				4A23E180239A13F600D5C7E8 /* sakuramochi.gif in Resources */,
 				63563E942398FCE700315722 /* LaunchScreen.storyboard in Resources */,

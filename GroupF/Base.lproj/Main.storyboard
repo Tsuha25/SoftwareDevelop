@@ -198,7 +198,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="top_dot_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="vBn-39-ucz">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="-151" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
@@ -206,7 +206,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Lx-D7-h0m">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Lx-D7-h0m" customClass="FLAnimatedImageView">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -248,11 +248,12 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="tQv-Vn-26N"/>
                     </view>
                     <navigationItem key="navigationItem" id="DSZ-HB-A6R"/>
                     <connections>
+                        <outlet property="clk" destination="2Lx-D7-h0m" id="uBv-Zk-MDf"/>
                         <outlet property="img_start" destination="ViR-xo-RJb" id="Cvp-RW-UmX"/>
                         <outlet property="start" destination="aAi-Ai-WkM" id="Cwl-eL-eec"/>
                         <outlet property="tap_start" destination="TA8-oh-VUL" id="XWE-MW-hRE"/>
@@ -315,46 +316,7 @@
                                         <attributes>
                                             <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <font key="NSFont" size="50" name="Palatino-Roman"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                <tabStops>
-                                                    <textTab alignment="left" location="28">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="56">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="84">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="112">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="140">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="168">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="196">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="224">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="252">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="280">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="308">
-                                                        <options/>
-                                                    </textTab>
-                                                    <textTab alignment="left" location="336">
-                                                        <options/>
-                                                    </textTab>
-                                                </tabStops>
-                                            </paragraphStyle>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                             <integer key="NSUnderline" value="1"/>
                                             <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </attributes>
@@ -391,7 +353,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ajO-Z6-fiR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="975" y="984"/>
+            <point key="canvasLocation" x="959" y="1020"/>
         </scene>
         <!--Field1-->
         <scene sceneID="tne-QT-ifu">
@@ -562,7 +524,6 @@
     </scenes>
     <resources>
         <image name="back_3.png" width="828" height="1792"/>
-        <image name="logo.png" width="504" height="1024"/>
         <image name="play" catalog="system" width="60" height="64"/>
         <image name="talk.png" width="828" height="1792"/>
         <image name="tap.png" width="222" height="225"/>

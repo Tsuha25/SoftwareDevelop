@@ -13,6 +13,7 @@ class ViewController_Start: UIViewController {
     
     //背景gif
     @IBOutlet weak var top_gif: FLAnimatedImageView!
+    @IBOutlet weak var clk: FLAnimatedImageView!
     //始める背景付きボタン
     @IBOutlet weak var start: UIButton!
     //初手tapでstartボタン
@@ -49,13 +50,18 @@ class ViewController_Start: UIViewController {
         super.viewDidLoad()
         //初手始める画面非表示
         Start_On_Off(index: false)
-        
+        Gif_img(index: "only_main", gif: top_gif)
+        Gif_img(index: "clk", gif: clk)
+
+    }
+
+    func Gif_img(index: String, gif:FLAnimatedImageView){
         //gif関連
-        let path1 : String = Bundle.main.path(forResource: "only_main", ofType: "gif")!
+        let path1 : String = Bundle.main.path(forResource: index, ofType: "gif")!
         let url = URL(fileURLWithPath: path1)
         let gifData = try? Data(contentsOf: url)
         let imageData1 = try? FLAnimatedImage(animatedGIFData: gifData)
-        top_gif.animatedImage = imageData1
+        gif.animatedImage = imageData1
+        
     }
-
 }
