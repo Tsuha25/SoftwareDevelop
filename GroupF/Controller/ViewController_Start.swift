@@ -21,6 +21,7 @@ class ViewController_Start: UIViewController {
     //始めるボタン背景
     @IBOutlet weak var img_start: UIImageView!
     
+    
     /*
      最初のtapボタンが押された時の処理
      */

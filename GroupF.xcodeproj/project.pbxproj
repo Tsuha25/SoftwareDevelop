@@ -13,7 +13,6 @@
 		4A11DB7A239DF483001F4846 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A11DB79239DF483001F4846 /* AVFoundation.framework */; };
 		4A11DB7C239DF76F001F4846 /* Quiz-Buzzer01-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A11DB7B239DF76F001F4846 /* Quiz-Buzzer01-1.mp3 */; };
 		4A23E16F2399D15200D5C7E8 /* ViewController_Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A23E16E2399D15200D5C7E8 /* ViewController_Start.swift */; };
-		4A23E1722399D70E00D5C7E8 /* top.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4A23E1712399D70E00D5C7E8 /* top.gif */; };
 		4A23E1762399D88B00D5C7E8 /* back_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A23E1742399D88B00D5C7E8 /* back_3.png */; };
 		4A23E17A2399ED1200D5C7E8 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A23E1792399ED1200D5C7E8 /* RoundedButton.swift */; };
 		4A23E17E239A13E800D5C7E8 /* talk.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A23E17D239A13E800D5C7E8 /* talk.png */; };
@@ -45,7 +44,6 @@
 		4A11DB79239DF483001F4846 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4A11DB7B239DF76F001F4846 /* Quiz-Buzzer01-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quiz-Buzzer01-1.mp3"; sourceTree = "<group>"; };
 		4A23E16E2399D15200D5C7E8 /* ViewController_Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController_Start.swift; path = Controller/ViewController_Start.swift; sourceTree = "<group>"; };
-		4A23E1712399D70E00D5C7E8 /* top.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = top.gif; sourceTree = "<group>"; };
 		4A23E1742399D88B00D5C7E8 /* back_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_3.png; sourceTree = "<group>"; };
 		4A23E1792399ED1200D5C7E8 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundedButton.swift; path = Controller/RoundedButton.swift; sourceTree = "<group>"; };
 		4A23E17D239A13E800D5C7E8 /* talk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = talk.png; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 				4A23E1742399D88B00D5C7E8 /* back_3.png */,
 				4AD1737E239B88D200A5A4A9 /* top_dot_back.png */,
 				4AD1737C239B885A00A5A4A9 /* only_main.gif */,
-				4A23E1712399D70E00D5C7E8 /* top.gif */,
 			);
 			path = Picture;
 			sourceTree = SOURCE_ROOT;
@@ -238,7 +235,6 @@
 				4A11DB76239DF21C001F4846 /* Quiz-Wrong_Buzzer02-2.mp3 in Resources */,
 				4AD17381239B891700A5A4A9 /* logo.png in Resources */,
 				63563E912398FCE700315722 /* Assets.xcassets in Resources */,
-				4A23E1722399D70E00D5C7E8 /* top.gif in Resources */,
 				4AD17383239B8AE900A5A4A9 /* tap.png in Resources */,
 				63563E8F2398FCE600315722 /* Main.storyboard in Resources */,
 				4A55110C23A21CAB0079D86B /* main_cha.gif in Resources */,
