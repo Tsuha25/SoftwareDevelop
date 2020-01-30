@@ -63,6 +63,5 @@ class ViewController_Start: UIViewController {
         let gifData = try? Data(contentsOf: url)
         let imageData1 = try? FLAnimatedImage(animatedGIFData: gifData)
         gif.animatedImage = imageData1
-        
     }
 }
