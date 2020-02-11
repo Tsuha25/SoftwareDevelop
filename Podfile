@@ -7,4 +7,5 @@ target 'GroupF' do
 
   # Pods for GroupF
   pod 'FLAnimatedImage'
+  pod 'SwiftyJSON','~>4.0'
 end
