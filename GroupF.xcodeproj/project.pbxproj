@@ -33,6 +33,7 @@
 		63563E9C2398FE0800315722 /* field2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63563E9B2398FE0800315722 /* field2.swift */; };
 		63563E9E2398FE5200315722 /* field3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63563E9D2398FE5200315722 /* field3.swift */; };
 		63563EA02398FE5D00315722 /* field4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63563E9F2398FE5D00315722 /* field4.swift */; };
+		63D1DEA323F2512A003C5B6C /* Quiz Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1DEA223F2512A003C5B6C /* Quiz Selection.swift */; };
 		63D602FB23A1DA7000C87F99 /* battlesound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63D602FA23A1DA7000C87F99 /* battlesound.mp3 */; };
 		EA92C68CCB1408C79F1273CE /* Pods_GroupF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FD5693D70961CE36DFA225 /* Pods_GroupF.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,7 @@
 		63563E9B2398FE0800315722 /* field2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = field2.swift; path = Controller/field2.swift; sourceTree = "<group>"; };
 		63563E9D2398FE5200315722 /* field3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = field3.swift; path = Controller/field3.swift; sourceTree = "<group>"; };
 		63563E9F2398FE5D00315722 /* field4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = field4.swift; path = Controller/field4.swift; sourceTree = "<group>"; };
+		63D1DEA223F2512A003C5B6C /* Quiz Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Quiz Selection.swift"; path = "Controller/Quiz Selection.swift"; sourceTree = "<group>"; };
 		63D602FA23A1DA7000C87F99 /* battlesound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = battlesound.mp3; sourceTree = "<group>"; };
 		A1FD5693D70961CE36DFA225 /* Pods_GroupF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD60058DAB2270A8AF048089 /* Pods-GroupF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupF.debug.xcconfig"; path = "Target Support Files/Pods-GroupF/Pods-GroupF.debug.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				4A11DB77239DF3CF001F4846 /* BattleScene.swift */,
 				63D602FA23A1DA7000C87F99 /* battlesound.mp3 */,
 				4A23E1702399D70E00D5C7E8 /* Picture */,
+				63D1DEA223F2512A003C5B6C /* Quiz Selection.swift */,
 			);
 			path = GroupF;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				63563E9C2398FE0800315722 /* field2.swift in Sources */,
 				4A55110A23A2144E0079D86B /* ViewController_Menu.swift in Sources */,
 				63563E882398FCE600315722 /* AppDelegate.swift in Sources */,
+				63D1DEA323F2512A003C5B6C /* Quiz Selection.swift in Sources */,
 				63563E8A2398FCE600315722 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
