@@ -8,11 +8,13 @@
 
 import UIKit
 import AVFoundation
-
+import Foundation
+import SwiftyJSON
 
 class BattleScene: UIViewController,AVAudioPlayerDelegate{
     
-    let enemyImage = UIImageView()
+    let url = URL(string: "https://ie.u-ryukyu.ac.jp/~e185715/quiz_data.json")
+    
     var audioPlayer = player() //まるバツのSEのプレイヤー
     var bgm = player() //BGMのプレイヤー
     
@@ -28,8 +30,8 @@ class BattleScene: UIViewController,AVAudioPlayerDelegate{
     var before:Int = 100 //、同じ問題を連続して出さないために、問題文インデックス番号を保存し比較
     
     //[n]番目の問題文とその選択肢。正解は各選択肢配列の先頭に置いているとうまくいく。
-    var question_sentences:[String] = ["問題文","question","あたりをつかみとれ！"]
-    var choices_sentences:[[String]] = [["正解","選択肢1","選択肢2","選択肢3"],["CORRECT","choice1","choice2","choice3"],["あたり","ハズレ","大ハズレ","スカ"]]
+    var question_sentences:[String] = []
+    var choices_sentences:[[String]] = [[]]
     
     //選択肢をランダムに配置するためのInt:four[]をシャッフル
     func shuffle(){
@@ -43,15 +45,15 @@ class BattleScene: UIViewController,AVAudioPlayerDelegate{
     
     //シャッフルした番号をも選択肢のインデックス番号とし、1番目のボタンから選択肢を配置
     func setting(){
-        choose_question = Int.random(in:0..<question_sentences.count)
+        choose_question = Int.random(in:0..<4)
         if before == choose_question{
             setting()
         } else {
-        question_text.text=String(question_sentences[choose_question])
-        first.text = choices_sentences[choose_question][four[0]-1]
-        second.text = choices_sentences[choose_question][four[1]-1]
-        third.text = choices_sentences[choose_question][four[2]-1]
-        fourth.text = choices_sentences[choose_question][four[3]-1]
+            question_text.text = question_sentences[choose_question]
+            first.text = choices_sentences[choose_question+1][four[0]-1]
+            second.text = choices_sentences[choose_question+1][four[1]-1]
+            third.text = choices_sentences[choose_question+1][four[2]-1]
+            fourth.text = choices_sentences[choose_question+1][four[3]-1]
         correct = four.firstIndex(of: 1)! //正解はfour[]の1が入っている場所を正解を判別する番号として保存
         before = choose_question //現在の問題のインデックス番号を保存し、連続で同じ問題を出させない
         }
@@ -122,7 +124,6 @@ class BattleScene: UIViewController,AVAudioPlayerDelegate{
         }
     }
     
-    
     @IBOutlet weak var enemy: UIImageView! //敵の画像を貼る場所アウトレット
     @IBOutlet weak var question_text: UITextView! //問題文を貼るアウトレット
     
@@ -162,20 +163,44 @@ class BattleScene: UIViewController,AVAudioPlayerDelegate{
     
     @IBOutlet weak var numQuest: UILabel! //問題数を数えているアウトレット
     
+    func json(){
+        URLSession.shared.dataTask(with: url!) { (data, response, error) in
+        guard let data = data else {return}
+            for i in 0..<4{
+        do {
+            let json = try? JSON(data: data)
+            let jsonData = json!
+            var quiz = jsonData["0_python"]["sentence"][i].description
+            self.question_sentences.append(quiz)
+            var new_choices:String = jsonData["0_python"]["choices"][i].description
+            new_choices = new_choices.replacingOccurrences(of: "\n", with: "")
+            new_choices = new_choices.replacingOccurrences(of: "[", with: "")
+            new_choices = new_choices.replacingOccurrences(of: "]", with: "")
+            var Array = [new_choices.components(separatedBy:",")]
+            self.choices_sentences += Array
+        } catch let jsonError{
+            print("jsonError", jsonError)
+        }
+        }
+        }.resume()
+        
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //print("hoge")
+        json()
+//        self.choices_sentences.swapAt(0,1)
+//        self.choices_sentences.swapAt(1,2)
+//        self.choices_sentences.swapAt(2,3)
+//        self.choices_sentences.swapAt(3,4)
+
         bgm.playBGM(name:"battlesound")
         question_text.isUserInteractionEnabled = false //問題文の編集禁止
         question_text.isEditable = false
-//        let screenW:CGFloat = view.frame.size.width
-//        let screenH:CGFloat = view.frame.size.height
-        
         let image = UIImage(named: "Enemy_image") //敵画像の挿入
-//        enemyImage.frame = CGRect(x:0,y: -50,width:screenW/1.25 ,height: screenH/2.3)
-//        enemyImage.center = CGPoint(x:screenW/2, y:screenH/5)
-//        self.view.addSubview(enemyImage)
-        enemy.image = image
+        enemy.image=image
         self.next_question()
     }
 }
@@ -218,4 +243,3 @@ class player{
         self.BGM.stop()
     }
 }
-
