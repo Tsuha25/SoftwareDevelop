@@ -12,6 +12,7 @@ import AVFoundation
 
 class BattleScene: UIViewController,AVAudioPlayerDelegate{
     
+    let enemyImage = UIImageView()
     var audioPlayer = player() //まるバツのSEのプレイヤー
     var bgm = player() //BGMのプレイヤー
     
@@ -167,8 +168,14 @@ class BattleScene: UIViewController,AVAudioPlayerDelegate{
         bgm.playBGM(name:"battlesound")
         question_text.isUserInteractionEnabled = false //問題文の編集禁止
         question_text.isEditable = false
+//        let screenW:CGFloat = view.frame.size.width
+//        let screenH:CGFloat = view.frame.size.height
+        
         let image = UIImage(named: "Enemy_image") //敵画像の挿入
-        enemy.image=image
+//        enemyImage.frame = CGRect(x:0,y: -50,width:screenW/1.25 ,height: screenH/2.3)
+//        enemyImage.center = CGPoint(x:screenW/2, y:screenH/5)
+//        self.view.addSubview(enemyImage)
+        enemy.image = image
         self.next_question()
     }
 }
