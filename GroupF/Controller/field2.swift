@@ -18,7 +18,7 @@ class field2: UIViewController {
     }
     
     private func initImageView(){
-        let image1:UIImage = UIImage(named:"鉄板")!
+        let image1:UIImage = UIImage(named:"床")!
         
         // UIImageView 初期化
         let imageView = UIImageView(image:image1)
